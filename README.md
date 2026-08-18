@@ -13,7 +13,7 @@ Create a virtual environment named .venv:
 
 Install the necessary packages:
 
-`pip install python-dotenv numpy opencv-python inference`
+`pip install python-dotenv numpy opencv-python inference ultralytics`
 
 You can now run the local model by running `python3 scaffold_analysis_local.py`.
 To run the Roboflow-hosted model, copy your Roboflow API key, create a file named .env, and
